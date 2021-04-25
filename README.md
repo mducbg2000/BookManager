@@ -27,10 +27,10 @@
 ``` 
 
 ## 4. Add dependency :arrow_forward:
-* Chạy *Maven* để load dependency cho project (Intellij Và Eclipse EE đều hỗ trợ việc này trong 1-2 cú click chuột, Netbean không biết)
+* Chạy *Maven* để load dependency cho project
 
 ## 5. Run project :rocket:
-* Deploy project trên Tomcat rồi chạy (tương tự maven, Intellij Và Eclipse EE cũng đều hỗ trợ việc này trong 1-2 cú click chuột, Netbean cũng không biết)
+* Deploy project trên Tomcat rồi chạy (với Intellij, click Run -> Edit Configurations, click dấu *+* rồi thêm tomcat server, sau đó click vào Configure và chọn folder chứa tomcat)
 ## 6. Lưu ý :warning:
 * File script *db_05.sql* khi bôi đen toàn bộ rồi `Execute` có thể bị lỗi dòng cuối cùng để cấp quyền cho test123, có thể bôi đen dòng cuối để chạy `Execute` lại, hoặc tốt nhất `Execute` từng lệnh một
 * Database không có data, có thể tự add tay hoặc chạy project rồi add thông qua webapp, có các chức năng đăng nhập, đăng ký, book thì có đủ CRUD
